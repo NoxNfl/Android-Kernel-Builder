@@ -3,9 +3,9 @@
       "name": "kernel-mtk",
       "repo": "https://github.com/MotorolaMobilityLLC/kernel-mtk.git",
       "branch": "MMI-S3RWS32.138-29-5-11",
-      "device": "corfu"
+      "device": "gki"
     },
-    "withKernelSU": false,
+    "withKernelSU": true,
     "toolchains": [
       {
         "repo": "https://android.googlesource.com/platform/prebuilts/gas/linux-x86",
