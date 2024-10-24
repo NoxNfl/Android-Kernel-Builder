@@ -1,8 +1,8 @@
 [  {
     "kernelSource": {
       "name": "kernel-mtk",
-      "repo": "https://github.com/MotorolaMobilityLLC/kernel-mtk.git",
-      "branch": "MMI-S3RWS32.138-29-5-11",
+      "repo": "https://github.com/NoxNfl/Kernel-corfu.git",
+      "branch": "corfu",
       "device": "gki"
     },
     "withKernelSU": true,
