@@ -9,24 +9,24 @@
     "withKernelSU": true,
     "toolchains": [
       {
-        "repo": "https://sourceware.org/git/binutils-gdb.git",
-        "branch": "binutils-2_35-branch",
-        "name": "binutils"
+         "repo": "https://android.googlesource.com/platform/prebuilts/gas/linux-x86",
+        "branch": "master",
+        "name": "gas"
       },
       {
-        "repo": "https://github.com/llvm/llvm-project.git",
-        "branch": "llvmorg-11.0.1",
-        "name": "llvm-project"
+        "repo": "https://gitlab.com/ThankYouMario/android_prebuilts_clang-standalone/",
+        "branch": "18",
+        "name": "clang"
       }
     ],
     "params": {
       "ARCH": "arm64",
       "CROSS_COMPILE": "aarch64-linux-gnu-",
       "CROSS_COMPILE_ARM32": "arm-linux-gnueabi-",
-      "CC": "clang",
-      "AR": "llvm-ar",
+      "CROSS_COMPILE_COMPAT": "arm-linux-gnueabi-",
       "CLANG_TRIPLE": "aarch64-linux-gnu-",
-      "AS": "aarch64-linux-gnu-as"
+      "AR": "",
+      "CC": "clang"
     }
   }
 ]
