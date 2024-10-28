@@ -14,9 +14,9 @@
         "name": "gas"
       },
       {
-        "repo": "https://gitlab.com/ThankYouMario/android_prebuilts_clang-standalone/",
-        "branch": "11",
-        "name": "clang"
+        "repo": "https://github.com/NoxNfl/Llv.git",
+        "branch": "master",
+        "name": "Llv"
       }
     ],
     "params": {
