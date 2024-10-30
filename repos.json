@@ -6,7 +6,7 @@
       "branch": "corfu",
       "device": "corfu"
     },
-    "withKernelSU": true,
+     "withKernelSU": true,
     "toolchains": [
       {
         "repo": "https://android.googlesource.com/platform/prebuilts/gas/linux-x86",
@@ -14,9 +14,9 @@
         "name": "gas"
       },
       {
-        "repo": "https://github.com/NoxNfl/Llv.git",
-        "branch": "master",
-        "name": "Llv"
+        "repo": "https://gitlab.com/ThankYouMario/android_prebuilts_clang-standalone/",
+        "branch": "11",
+        "name": "clang"
       }
     ],
     "params": {
@@ -30,5 +30,4 @@
     }
   }
 ]
-
 
